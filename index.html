@@ -3,10 +3,10 @@
     <meta charset="UTF-8">
     <title>gt-web</title>
 </head>
-<body ng-app ng-init="qty=1;cost=2">
+<body ng-app="invoice">
 <h1>Called External API</h1>
 
-<div ng-app="invoice" ng-controller="InvoiceController as invoice">
+<div ng-controller="InvoiceController as invoice">
   <b>Invoice:</b>
   <div>
     Quantity: <input type="number" ng-model="invoice.qty" required >

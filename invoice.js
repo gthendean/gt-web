@@ -1,4 +1,4 @@
-angular.module('invoice', ['finance'])
+angular.module('invoiceApp', ['finance'])
   .controller('InvoiceController', ['currencyConverter', function(currencyConverter) {
     this.qty = 1;
     this.cost = 2;
